@@ -3,7 +3,7 @@ function asignarGrupo() {
     let mensaje = "";
     
     if (edad === "" || isNaN(edad) || edad < 0) {
-        mensaje = "Por favor, ingresa una edad válida.";
+        mensaje = "Por favor, ingrese una edad válida.";
     } else {
         edad = parseInt(edad);
         if (edad <= 12) {
