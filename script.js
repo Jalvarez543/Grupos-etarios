@@ -7,13 +7,13 @@ function asignarGrupo() {
     } else {
         edad = parseInt(edad);
         if (edad <= 12) {
-            mensaje = "Eres un niño.";
+            mensaje = "Usted es un niño.";
         } else if (edad >= 13 && edad <= 17) {
-            mensaje = "Eres un adolescente.";
+            mensaje = "Usted es un adolescente.";
         } else if (edad >= 18 && edad <= 29) {
-            mensaje = "Eres un adulto joven.";
+            mensaje = "Usted es un adulto joven.";
         } else {
-            mensaje = "Eres un adulto mayor.";
+            mensaje = "Usted es un adulto mayor.";
         }
     }
     
